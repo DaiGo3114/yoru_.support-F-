@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>名古屋デリヘル - GIRL'S SAVIOR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <style>
+        /* 全体のスタイル */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background: url('https://example.com/background.jpg') no-repeat center center/cover;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            position: relative;
+            padding-top: 50px;
+        }
+
+        /* 背景のぼかし */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+            z-index: -1;
+        }
+
+        /* タイトル */
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            color: pink;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+            margin-bottom: 30px;
+        }
+
+        /* ボタンスタイル */
+        .button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            max-width: 400px;
+            padding: 15px 20px;
+            margin: 10px auto;
+            background: #dff9fb;
+            color: #e17055;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 30px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #c8f7c5;
+            transform: scale(1.05);
+        }
+
+        /* 矢印アイコン */
+        .button::after {
+            content: ">";
+            font-size: 1.2em;
+        }
+
+        /* 装飾アイコン */
+        .button span {
+            color: #ff7979;
+        }
+
+        /* 戻るボタン */
+        .back-button {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            color: #e17055;
+            padding: 10px 20px;
+            font-size: 1em;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 20px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+        }
+
+        .back-button:hover {
+            background: rgba(200, 247, 197, 0.9);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="title">GIRL'S SAVIOR</h1>
+
+    <a href="https://example.com/shop1" class="button"><span>✨</span> 店舗名 1</a>
+    <a href="https://example.com/shop2" class="button"><span>✨</span> 店舗名 2</a>
+    <a href="https://example.com/shop3" class="button"><span>✨</span> 店舗名 3</a>
+    <a href="https://example.com/shop4" class="button"><span>✨</span> 店舗名 4</a>
+    <a href="https://example.com/shop5" class="button"><span>✨</span> 店舗名 5</a>
+
+    <!-- 戻るボタン -->
+    <a href="index.html" class="back-button">← 戻る</a>
+
+</body>
+</html>
